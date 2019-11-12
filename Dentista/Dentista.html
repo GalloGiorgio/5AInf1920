@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Studio dentistico</title>
+</head>
+
+<body>
+
+    <form name="f1" action="Dentista.php" method="get">
+	
+        <h2 align="center">Dentista</h2>
+		
+        Cognome:&nbsp;<input type="text" name="cognome" value=""><br>
+        Nome:&nbsp;<input type="text" name="nome" value=""><br>
+        Numero di telefono:&nbsp;<input type="text" name="numero" value=""><br>
+        Giorno appuntamento:&nbsp;<input type="text" name="giorno" value=""><br><br>
+		
+        Studio&nbsp;:
+        <select name="">
+            <option value="1">Moiraghi</option>
+            <option value="2">Rodino</option>
+            <option value="3">Rossi</option>
+			<option value="4">Mhanz</option>
+			<option value="5">Sbucci</option>
+        </select><br><br>
+		
+        Trattamento:&nbsp;
+			<input type="radio" name="tipo" value="1">Apparecchio&nbsp;
+			<input type="radio" name="tipo" value="2">Lastra&nbsp;
+			<input type="radio" name="tipo" value="3">Carie
+			<input type="radio" name="tipo" value="4">Pulizia<br><br>
+			
+        Facoltativo:
+			<input type="checkbox" name="optional" value="1">Poltrona&nbsp;
+			<input type="checkbox" name="optional" value="2">Wifi&nbsp;
+			<input type="checkbox" name="optional" value="3">Giornale&nbsp;
+			<input type="checkbox" name="optional" value="4">Anestesia&nbsp;<br><br>
+			
+        Immagine:&nbsp;<input type="file" name="nomeFile">
+			<input type="submit" name="bInvia" value="invia">
+			
+    </form>
+	
+</body>
+
+
+</html>
